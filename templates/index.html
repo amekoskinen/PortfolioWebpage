@@ -1,0 +1,31 @@
+{% include "header.html" %}
+
+<body class="index-page">
+  {% include "navigation.html" %}
+
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <img src="static/assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2 style="color: white;">Anna Koo</h2>
+              <a href="{{url_for('about')}}" class="btn-get-started mt-5 mb-5">About Me</a>
+            <p class="mt-5 pt-5" style="color: violet; font-weight:bold">I’m a motivated career changer transitioning from customer service to the IT field. With strong communication and problem-solving skills, I’m eager to grow and contribute in tech-driven environments.</p>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+  </main>
+  {% include "footer.html" %}
+
+</body>
+
+</html>
